@@ -17,6 +17,7 @@
 body {  
   background-color: #fafafa;
   font-family: 'Exo 2', sans-serif;
+  background-image: url(http://www.awshdwallpapers.com/wp-content/uploads/2014/06/plain-light-color-desktop-background.jpg);
 }
 
 .navbar-brand {
@@ -28,7 +29,7 @@ body {
 }
 
 .navbar-default {
-  background-color: #fff;
+  background-color: #fcfcfc;
   height: 54px;
   .navbar-nav li a {
     color: #125688;
@@ -46,9 +47,21 @@ body {
 
 .posts-wrapper {
   padding-top: 40px;
+  position: absolute;
   margin: 0 auto;
   max-width: 642px;
   width: 100%;
+  font-family: 'Exo 2', sans-serif;
+}
+
+.container {
+  padding-top: 40px;
+  position: absolute;
+  right: 410px;
+  margin: 0 auto;
+  max-width: 642px;
+  width: 100%;
+  font-family: 'Exo 2', sans-serif;
 }
 
 .post {
@@ -58,6 +71,7 @@ body {
   border-radius: 3px;
   border-width: 1px;
   margin-bottom: 60px;
+  font-family: 'Exo 2', sans-serif;
 }
 
 .post-head {
@@ -66,9 +80,11 @@ body {
   color: #125688;
   font-size: 15px;
   line-height: 18px;
+  font-family: 'Exo 2', sans-serif;
   .thumbnail {}
   .name {
     display: block;
+    font-family: 'Exo 2', sans-serif;
   }
 }
 
