@@ -29,6 +29,7 @@ h2{
   text-align: center;
 }
 
+
 .form-actions{
   text-align: center;
 }
@@ -36,6 +37,10 @@ h2{
 .comment-content{
   text-align: left;
 
+}
+
+.user_password{
+  text-align: center;
 }
 
 .caption{
@@ -70,6 +75,16 @@ h2{
   text-align: left;
   padding-top: 25px;
   padding-bottom: 10px;
+}
+
+.navbar {
+  margin-bottom: 0px;
+  font-family: 'Exo 2', sans-serif;
+}
+
+.alert {
+  margin-bottom: 0px;
+  font-family: 'Exo 2', sans-serif;
 }
 
 .user_names{
