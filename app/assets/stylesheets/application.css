@@ -14,18 +14,73 @@
  *= require_self
  */
 
+
 body {  
   background-color: #fafafa;
   font-family: 'Exo 2', sans-serif;
   background-image: url(http://www.awshdwallpapers.com/wp-content/uploads/2014/06/plain-light-color-desktop-background.jpg);
 }
 
+h2{
+  text-align: center;
+}
+
+#yankees{
+  text-align: center;
+}
+
+.form-actions{
+  text-align: center;
+}
+
+.comment-content{
+  text-align: left;
+
+}
+
+.caption{
+  text-align: left;
+}
+
+.form-inputs{
+  text-align: center;
+}
+
+.post-head{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 20px;
+}
+
+.post-bottom{
+  float: center;
+  text-align: center;
+}
+
+.user_email{
+  text-align: center;
+}
+
+.user_password{
+  text-align: center;
+
+}
+
+.user-comments{
+  text-align: left;
+  padding-top: 25px;
+  padding-bottom: 10px;
+}
+
+.user_names{
+  margin-bottom: 30px;
+  text-align: left;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 .navbar-brand {
-  
     color: #125688;
     font-family: 'Exo 2', sans-serif;
-    
-  
 }
 
 .navbar-default {
@@ -45,15 +100,6 @@ body {
   
 }
 
-.posts-wrapper {
-  padding-top: 40px;
-  position: absolute;
-  margin: 0 auto;
-  max-width: 642px;
-  width: 100%;
-  font-family: 'Exo 2', sans-serif;
-}
-
 .container {
   padding-top: 40px;
   position: absolute;
@@ -64,6 +110,34 @@ body {
   font-family: 'Exo 2', sans-serif;
 }
 
+.navbar-brand {
+  a {
+    color: #125688;
+  }
+}
+
+.navbar-default {
+  background-color: #fff;
+  height: 54px;
+  .navbar-nav li a {
+    color: #125688;
+  }
+}
+
+.navbar-container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+/* ## POST CUSTOMISATIONS ## */
+
+.posts-wrapper {
+  padding-top: 40px;
+  margin: 0 auto;
+  max-width: 642px;
+  width: 100%;
+}
+
 .post {
   background-color: #fff;
   border-color: #edeeee;
@@ -71,33 +145,86 @@ body {
   border-radius: 3px;
   border-width: 1px;
   margin-bottom: 60px;
-  font-family: 'Exo 2', sans-serif;
-}
-
-.post-head {
-  height: 64px;
-  padding: 14px 20px;
-  color: #125688;
-  font-size: 15px;
-  line-height: 18px;
-  font-family: 'Exo 2', sans-serif;
-  .thumbnail {}
-  .name {
-    display: block;
-    font-family: 'Exo 2', sans-serif;
+  .post-head {
+    flex-direction: row;
+    height: 64px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 24px;
+    color: #125688;
+    font-size: 15px;
+    line-height: 18px;
+    .user-name, .time-ago {
+      display: inline;
+    }
+    .user-name {
+      font-weight: 500;
+    }
+    .time-ago {
+      color: #A5A7AA;
+      float: right;
+    }
+  }
+  .image {
+    border-bottom: 1px solid #eeefef;
+    border-top: 1px solid #eeefef;
   }
 }
 
-.image {
-  border-bottom: 1px solid #eeefef;
-  border-top: 1px solid #eeefef;
-}
-
-.caption {
-  padding: 24px 24px;
+.post-bottom {
+  .user-name, .comment-content {
+    display: inline;
+  }
+  .caption {
+    margin-bottom: 7px;
+  }
+  .user-name {
+    font-weight: 500;
+    margin-right: 0.3em;
+    color: #125688;
+    font-size: 15px;
+  }
+  .user-name, .caption-content {
+    display: inline;
+  }
+  #comment {
+    margin-top: 7px;
+    .user-name {
+      font-weight: 500;
+      margin-right: 0.3em;
+    }
+    .delete-comment {
+      float: right;
+      color: #515151;
+    }
+  }
+  margin-bottom: 7px;
+  padding-top: 24px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 10px;
   font-size: 15px;
   line-height: 18px;
+}
 
+.comment_content {
+  font-size: 15px;
+  line-height: 18px;
+  border: medium none;
+  width: 100%;
+  color: #4B4F54;
+}
+
+.comment-like-form {
+  padding-top: 24px;
+  margin-top: 13px;
+  margin-left: 24px;
+  margin-right: 24px;
+  min-height: 68px;
+  align-items: center;
+  border-top: 1px solid #EEEFEF;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .form-wrapper {
