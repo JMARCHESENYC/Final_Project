@@ -1,7 +1,7 @@
 class ProfilesController < ApplicationController
   def show 
   @user = User.find_by(user_name: params[:user_name]) 
-  @posts = User.find_by(user_name: params[:user_name]).posts.order('created_at DESC')
+  @posts = Post.all.order('created_at DESC').page params[:page]
 end 
   def edit  
   @user = User.find_by(user_name: params[:user_name])
