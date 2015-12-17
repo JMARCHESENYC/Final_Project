@@ -29,17 +29,48 @@ h2{
   color: red;
 }
 
+.profile-header {
+  padding: 20px 0;
+}
+
+.profile-image {
+  margin: 20px auto;
+  height: 152px;
+  width: 152px;
+}
+
+.user-name-and-follow {
+  display: inline;
+}
+
+.profile-user-name {
+  display: inline;
+}
+
+.edit-button {
+  border-color: #818488;
+  color: #818488;
+  margin-left: 20px;
+}
+
+.profile-bio {
+  margin-top: 20px;
+}
+
+#knicks{
+  text-align: center;
+  font-size: 20px;
+}
+
 #rangers{
   color: red;
+  padding-left: 20px;
 }
 
 #yankees{
   text-align: center;
 }
 
-
-
-}
 .form-actions{
   text-align: center;
 }
