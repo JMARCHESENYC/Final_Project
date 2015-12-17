@@ -80,6 +80,8 @@ h2{
 
 }
 
+
+
 .user_password{
   text-align: center;
 }
@@ -195,7 +197,7 @@ h2{
 /* ## POST CUSTOMISATIONS ## */
 
 .posts-wrapper {
-  padding-top: 40px;
+  padding-top: 50px;
   margin: 0 auto;
   max-width: 642px;
   width: 100%;
