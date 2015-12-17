@@ -25,11 +25,21 @@ h2{
   text-align: center;
 }
 
+#jets{
+  color: red;
+}
+
+#rangers{
+  color: red;
+}
+
 #yankees{
   text-align: center;
 }
 
 
+
+}
 .form-actions{
   text-align: center;
 }
@@ -41,6 +51,10 @@ h2{
 
 .user_password{
   text-align: center;
+}
+
+#user_avatar {
+  margin: 20px auto;
 }
 
 .caption{
@@ -87,11 +101,14 @@ h2{
   font-family: 'Exo 2', sans-serif;
 }
 
+.post-head{
+  text-align: center;
+}
 .user_names{
-  margin-bottom: 30px;
+  margin-bottom: 50px;
   text-align: left;
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 50px;
 }
 .navbar-brand {
     color: #125688;
@@ -201,6 +218,7 @@ h2{
   }
   .user-name, .caption-content {
     display: inline;
+    margin-top: 30px;
   }
   #comment {
     margin-top: 7px;
