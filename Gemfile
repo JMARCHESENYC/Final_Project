@@ -19,7 +19,7 @@ gem 'jquery-rails'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
 
-gem 'bootstrap-sass', '~> 3.3.5'
+gem 'bootstrap', '~> 5.0.2'
 
 gem 'devise'
 
